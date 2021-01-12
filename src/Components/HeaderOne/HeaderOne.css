@@ -1,0 +1,259 @@
+.headerOne__container {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  /* border-bottom: 1px solid lightgray; */
+  z-index: 100;
+  background-color: black;
+  color: white;
+}
+
+.headerOne__left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.headerOne__logo {
+  color: seagreen;
+  transition: transform 0.2s;
+}
+
+.headerOne__logo:hover {
+  text-transform: none;
+  text-decoration: none;
+  color: seagreen;
+  transform: scale(1.1);
+}
+
+.headerOne__left > span {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 1px;
+}
+.headerOne__middle {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex: 5;
+}
+
+.headerOne__middle > p {
+  padding: 5px 18px;
+  font-size: 13px;
+}
+
+.headerOne__middle > p:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.headerOne__middleSearchIcon {
+  padding-top: 10px;
+}
+
+.headerOne__middleItem {
+  padding: 15px;
+  color: rgb(189, 185, 185);
+}
+
+.headerOne__middleItem:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.headerOne__inline {
+  padding-top: 5px;
+  min-width: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.headerOne__right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerOne__rightButton > button {
+  padding: 10px 20px;
+  background-color: white;
+  color: seagreen;
+  font-size: 10px;
+  border: 1px solid seagreen;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.headerOne__rightButton :hover {
+  background-color: seagreen;
+  color: white;
+  cursor: pointer;
+}
+
+.navbarTop__right > input {
+  padding: 10px 5px;
+  border: none;
+  background: transparent;
+  outline-width: 0;
+  align-items: center;
+}
+
+.navbarTop__rightSearch {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgrey;
+  padding: 10px 5px;
+  border-radius: 25px;
+  color: gray;
+}
+
+.navbarTop__right > button {
+  float: right;
+  width: auto;
+}
+
+.navbarTop__right > button :hover {
+  cursor: pointer;
+}
+
+@media all and (max-width: 870px) {
+  .headerOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    z-index: 100;
+  }
+
+  .headerOne__logo > h2 {
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  .headerOne__middle > img {
+    margin-right: 5px;
+  }
+
+  .headerOne__middle > p {
+    font-size: 14px;
+    padding: 5px 4px;
+  }
+
+  .headerOne__inline {
+    padding-top: 5px;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .headerOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    z-index: 100;
+  }
+
+  .headerOne__logo > h2 {
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  .headerOne__middle > img {
+    margin-right: 5px;
+  }
+
+  .headerOne__middle > p {
+    font-size: 12px;
+    padding: 5px 3px;
+  }
+
+  .headerOne__inline {
+    padding-top: 5px;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 568px) {
+  .headerOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    z-index: 100;
+  }
+
+  .headerOne__logo > h2 {
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  .headerOne__middle > img {
+    margin-right: 5px;
+  }
+
+  .headerOne__middle > p {
+    font-size: 9px;
+    padding: 5px 3px;
+  }
+
+  .headerOne__inline {
+    padding-top: 5px;
+    min-width: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerOne__logo {
+    height: 15px;
+    width: 15px;
+    padding-top: 3px;
+  }
+}
+
+@media all and (max-width: 449px) {
+  .headerOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    z-index: 100;
+  }
+
+  .headerOne__logo > h2 {
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  .headerOne__middle > img {
+    margin-right: 5px;
+  }
+
+  .headerOne__middle > p {
+    font-size: 7px;
+    padding: 5px 2px;
+  }
+
+  .headerOne__inline {
+    padding-top: 5px;
+    min-width: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerOne__logo {
+    height: 15px;
+    width: 15px;
+    padding-top: 3px;
+  }
+}

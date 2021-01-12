@@ -1,0 +1,288 @@
+.homeScreenFive {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  margin-top: -150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 300px;
+  padding-top: 200px;
+}
+
+.homeScreenFive__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.homeScreenFive__textContainers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.homeScreenFive__product {
+  z-index: 1;
+  height: 100%;
+  min-width: 600px;
+  width: 85%;
+  margin-top: -100px;
+  margin-bottom: -90px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/ScreenFive/Sc_Five_00005.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  object-fit: contain;
+}
+
+.homeScreenFive__productAnimation {
+  z-index: 1;
+  height: 100%;
+  min-width: 600px;
+  width: 85%;
+  margin-top: -100px;
+  margin-bottom: -90px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/ScreenFive/Sc_Five_00032.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  object-fit: contain;
+  animation: laptopConnectivity 3s ease-in;
+  /* margin-bottom: -140px; */
+  /* animation: laptopOpenHigh 5s ease; */
+}
+
+.homeScreenFive__text {
+  padding-top: 20px;
+  width: 40%;
+  min-width: 600px;
+}
+
+.homeScreenFive__text > p {
+  width: 100%;
+  text-align: center;
+}
+
+@media all and (max-width: 620px) {
+  .homeScreenFive {
+    height: 800px;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 0;
+  }
+
+  .homeScreenFive__container {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .homeScreenFive__textContainers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 3%;
+    z-index: -1;
+  }
+
+  .homeScreenFive__textContainers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    padding-top: -330px;
+    margin-top: -330px;
+  }
+
+  .homeScreenFive__textContainers > h1 {
+    font-size: 26px;
+  }
+
+  .homeScreenFive__text {
+    padding-top: 10px;
+    min-width: 300px;
+    max-width: 360px;
+    width: 505;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .homeScreenFive__text > p {
+    width: 50%;
+    min-width: 300px;
+    text-align: center;
+    font-size: 11px;
+    max-width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* only min-width */
+
+  .homeScreenFive__product {
+    z-index: 1;
+    height: 100%;
+    min-width: 300px;
+    width: 300px;
+    padding-top: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/ScreenFive/Sc_Five_00005.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    object-fit: contain;
+  }
+
+  .homeScreenFive__productAnimation {
+    z-index: 1;
+    width: 300px;
+    padding-top: 200px;
+    min-width: 300px;
+    width: 85%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/ScreenFive/Sc_Five_00032.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    object-fit: contain;
+    animation: laptopConnectivity 3s ease-in;
+  }
+}
+
+@keyframes laptopConnectivity {
+  0% {
+    background-image: url(images/ScreenFive/Sc_Five_00005.png);
+  }
+  3% {
+    background-image: url(images/ScreenFive/Sc_Five_00006.png);
+  }
+  6% {
+    background-image: url(images/ScreenFive/Sc_Five_00007.png);
+  }
+  9% {
+    background-image: url(images/ScreenFive/Sc_Five_00008.png);
+  }
+  12% {
+    background-image: url(images/ScreenFive/Sc_Five_00009.png);
+  }
+  15% {
+    background-image: url(images/ScreenFive/Sc_Five_00010.png);
+  }
+  18% {
+    background-image: url(images/ScreenFive/Sc_Five_00011.png);
+  }
+  21% {
+    background-image: url(images/ScreenFive/Sc_Five_00012.png);
+  }
+  24% {
+    background-image: url(images/ScreenFive/Sc_Five_00013.png);
+  }
+  27% {
+    background-image: url(images/ScreenFive/Sc_Five_00014.png);
+  }
+  30% {
+    background-image: url(images/ScreenFive/Sc_Five_00015.png);
+  }
+  33% {
+    background-image: url(images/ScreenFive/Sc_Five_00016.png);
+  }
+  36% {
+    background-image: url(images/ScreenFive/Sc_Five_00017.png);
+  }
+  39% {
+    background-image: url(images/ScreenFive/Sc_Five_00018.png);
+  }
+  42% {
+    background-image: url(images/ScreenFive/Sc_Five_00019.png);
+  }
+  45% {
+    background-image: url(images/ScreenFive/Sc_Five_00020.png);
+  }
+  48% {
+    background-image: url(images/ScreenFive/Sc_Five_00021.png);
+  }
+  51% {
+    background-image: url(images/ScreenFive/Sc_Five_00022.png);
+  }
+  54% {
+    background-image: url(images/ScreenFive/Sc_Five_00023.png);
+  }
+  57% {
+    background-image: url(images/ScreenFive/Sc_Five_00024.png);
+  }
+  60% {
+    background-image: url(images/ScreenFive/Sc_Five_00025.png);
+  }
+  63% {
+    background-image: url(images/ScreenFive/Sc_Five_00026.png);
+  }
+  66% {
+    background-image: url(images/ScreenFive/Sc_Five_00027.png);
+  }
+  69% {
+    background-image: url(images/ScreenFive/Sc_Five_00028.png);
+  }
+  72% {
+    background-image: url(images/ScreenFive/Sc_Five_00029.png);
+  }
+  75% {
+    background-image: url(images/ScreenFive/Sc_Five_00030.png);
+  }
+  78% {
+    background-image: url(images/ScreenFive/Sc_Five_00031.png);
+  }
+  81% {
+    background-image: url(images/ScreenFive/Sc_Five_00032.png);
+  }
+}

@@ -1,0 +1,262 @@
+.headerTwo {
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  /* border-bottom: 1px solid lightgray; */
+  z-index: 100;
+  background-color: #151515;
+  color: #929292;
+  padding-top: 20px;
+}
+
+.headerTwo__left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.headerTwo__left > img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.headerTwo__logo {
+  color: seagreen;
+  transition: transform 0.2s;
+}
+
+.headerTwo__logo:hover {
+  text-transform: none;
+  text-decoration: none;
+  color: seagreen;
+  transform: scale(1.1);
+}
+
+.headerTwo__left > span {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 1px;
+}
+.headerTwo__middle {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex: 5;
+}
+
+.headerTwo__middle > p {
+  padding: 5px 18px;
+}
+
+.headerTwo__middle > p:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.headerTwo__middleSearchIcon {
+  padding-top: 10px;
+}
+
+.headerTwo__middleItem {
+  padding: 15px;
+  color: rgb(189, 185, 185);
+}
+
+.headerTwo__middleItem:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.headerTwo__right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerTwo__right > p {
+  margin: 10px 20px;
+  margin-bottom: 0px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.headerTwo__right > p :hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.headerTwo__inline {
+  padding-top: 5px;
+  min-width: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.headerTwo__inline :hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.headerTwo__activeItem {
+  color: white;
+  background-color: blue;
+}
+
+.headerTwo__rightButton > button {
+  padding: 10px 10px;
+  padding-bottom: 0px;
+  background-color: white;
+  color: seagreen;
+  font-size: 10px;
+  border: 1px solid seagreen;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.headerTwo__rightButton :hover {
+  background-color: seagreen;
+  color: white;
+  cursor: pointer;
+}
+
+.navbarTop__right > input {
+  padding: 10px 5px;
+  border: none;
+  background: transparent;
+  outline-width: 0;
+  align-items: center;
+}
+
+.navbarTop__rightSearch {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgrey;
+  padding: 10px 5px;
+  border-radius: 25px;
+  color: gray;
+}
+
+.navbarTop__right > button {
+  float: right;
+  width: auto;
+}
+
+.navbarTop__right > button :hover {
+  cursor: pointer;
+}
+
+@media all and (max-width: 720px) {
+  .headerTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    z-index: 100;
+    margin: 0px;
+    padding: 0px;
+  }
+  .headerTwo__middle {
+    padding: 0px 10px;
+  }
+  .headerTwo__right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .headerTwo__middle > p {
+    margin: 0px;
+    padding: 0pxs;
+  }
+}
+
+@media all and (max-width: 520px) {
+  .headerTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    z-index: 100;
+    margin: 0px;
+    padding: 0px;
+  }
+  .headerTwo__middle {
+    padding: 0px 10px;
+  }
+
+  .headerTwo__middle > p {
+    margin: 0px;
+    padding: 0pxs;
+  }
+
+  .headerTwo__inline {
+    margin: 0;
+    padding: 0;
+    min-width: 75px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerTwo__inline :hover {
+    background-color: blueviolet;
+    cursor: pointer;
+  }
+
+  .headerTwo__right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .headerTwo__right > p {
+    padding: 5px 5px;
+    padding: 5px 5px;
+    font-size: 10px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .headerTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    z-index: 100;
+    margin: 0px;
+    padding: 0px;
+  }
+  .headerTwo__middle {
+    padding: 0px 10px;
+  }
+
+  .headerTwo__middle > p {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .headerTwo__inline {
+    margin: 0;
+    padding: 0;
+    min-width: 45px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerTwo__inline :hover {
+    background-color: blueviolet;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+  }
+
+  .headerTwo__right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .headerTwo__right > p {
+    font-size: 8px;
+  }
+}

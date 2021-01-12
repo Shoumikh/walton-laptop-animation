@@ -1,0 +1,322 @@
+.homeScreenThree {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  margin-top: -150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 10%;
+}
+
+.homeScreenThree__container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.homeScreenThree__textContainers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 3%;
+  z-index: -1;
+}
+
+.homeScreenThree__product {
+  z-index: 1;
+  height: 100%;
+  min-width: 600px;
+  width: 85%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/SceneThree/Sc_Three_00000.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  object-fit: contain;
+}
+
+.homeScreenThree__productAnimation {
+  z-index: 1;
+  height: 100%;
+  min-width: 600px;
+  width: 85%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/SceneThree/Sc_Three_00032.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  object-fit: contain;
+  animation: laptopOpenThree 2s ease-in;
+}
+
+.homeScreenThree__configContainer {
+  display: flex;
+  position: absolute;
+  bottom: 100px;
+}
+
+.homeScreenThree__config {
+  display: flex;
+  padding: 10px 10px;
+}
+
+.homeScreenThree__config > img {
+  height: 50px;
+  width: 50px;
+}
+
+.homeScreenThree__config > img {
+  height: 50px;
+  width: 50px;
+}
+
+.homeScreenThree__configText {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.homeScreenThree__configInfo {
+  font-size: 12px;
+}
+
+.homeScreenThree__text {
+  padding-top: 20px;
+  width: 60%;
+  min-width: 700px;
+  font-size: 16px;
+}
+
+.homeScreenThree__text > p {
+  width: 100%;
+  text-align: center;
+}
+
+@media all and (max-width: 620px) {
+  .homeScreenThree {
+    height: 600px;
+    background-color: black;
+    color: white;
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 10%;
+  }
+
+  .homeScreenThree__container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .homeScreenThree__textContainers {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 9%;
+    z-index: -1;
+  }
+  .homeScreenThree__text {
+    padding-top: 10px;
+    min-width: 300px;
+    max-width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .homeScreenThree__text > p {
+    width: 300px;
+    text-align: center;
+    font-size: 11px;
+    max-width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .homeScreenThree__configContainer {
+    display: flex;
+    bottom: 0;
+    width: 320px;
+    flex-direction: column;
+    position: absolute;
+    bottom: 40px;
+  }
+
+  .homeScreenThree__config > img {
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+  }
+
+  .homeScreenThree__configTitle {
+    font-size: 14px;
+  }
+  .homeScreenThree__configInfo {
+    font-size: 9px;
+  }
+  .homeScreenThree__product {
+    z-index: 1;
+    height: 600px;
+    min-width: 300px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/SceneThree/Sc_Three_00000.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    object-fit: contain;
+  }
+
+  .homeScreenThree__productAnimation {
+    z-index: 1;
+    height: 600px;
+    min-width: 300px;
+    width: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/SceneThree/Sc_Three_00032.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    object-fit: contain;
+    animation: laptopOpenThree 2s ease-in;
+  }
+}
+
+@keyframes laptopOpenThree {
+  0% {
+    background-image: url(images/SceneThree/Sc_Three_00000.png);
+  }
+  3% {
+    background-image: url(images/SceneThree/Sc_Three_00001.png);
+  }
+  6% {
+    background-image: url(images/SceneThree/Sc_Three_00003.png);
+  }
+  9% {
+    background-image: url(images/SceneThree/Sc_Three_00004.png);
+  }
+  12% {
+    background-image: url(images/SceneThree/Sc_Three_00005.png);
+  }
+  15% {
+    background-image: url(images/SceneThree/Sc_Three_00006.png);
+  }
+  18% {
+    background-image: url(images/SceneThree/Sc_Three_00007.png);
+  }
+  21% {
+    background-image: url(images/SceneThree/Sc_Three_00008.png);
+  }
+  24% {
+    background-image: url(images/SceneThree/Sc_Three_00009.png);
+  }
+  27% {
+    background-image: url(images/SceneThree/Sc_Three_00010.png);
+  }
+  30% {
+    background-image: url(images/SceneThree/Sc_Three_00011.png);
+  }
+  33% {
+    background-image: url(images/SceneThree/Sc_Three_00012.png);
+  }
+  36% {
+    background-image: url(images/SceneThree/Sc_Three_00013.png);
+  }
+  39% {
+    background-image: url(images/SceneThree/Sc_Three_00014.png);
+  }
+  42% {
+    background-image: url(images/SceneThree/Sc_Three_00015.png);
+  }
+  45% {
+    background-image: url(images/SceneThree/Sc_Three_00016.png);
+  }
+  48% {
+    background-image: url(images/SceneThree/Sc_Three_00017.png);
+  }
+  51% {
+    background-image: url(images/SceneThree/Sc_Three_00018.png);
+  }
+  54% {
+    background-image: url(images/SceneThree/Sc_Three_00019.png);
+  }
+  57% {
+    background-image: url(images/SceneThree/Sc_Three_00020.png);
+  }
+  60% {
+    background-image: url(images/SceneThree/Sc_Three_00021.png);
+  }
+  63% {
+    background-image: url(images/SceneThree/Sc_Three_00022.png);
+  }
+  63% {
+    background-image: url(images/SceneThree/Sc_Three_00023.png);
+  }
+  66% {
+    background-image: url(images/SceneThree/Sc_Three_00024.png);
+  }
+  69% {
+    background-image: url(images/SceneThree/Sc_Three_00025.png);
+  }
+  72% {
+    background-image: url(images/SceneThree/Sc_Three_00026.png);
+  }
+  75% {
+    background-image: url(images/SceneThree/Sc_Three_00027.png);
+  }
+  78% {
+    background-image: url(images/SceneThree/Sc_Three_00028.png);
+  }
+  81% {
+    background-image: url(images/SceneThree/Sc_Three_00029.png);
+  }
+  84% {
+    background-image: url(images/SceneThree/Sc_Three_00030.png);
+  }
+  87% {
+    background-image: url(images/SceneThree/Sc_Three_00031.png);
+  }
+  90% {
+    background-image: url(images/SceneThree/Sc_Three_00032.png);
+  }
+}

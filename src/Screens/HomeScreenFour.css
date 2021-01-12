@@ -1,0 +1,308 @@
+.homeScreenFour {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  margin-top: -150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.homeScreenFour__container {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.homeScreenFour__textOuterContainer {
+  width: 70%;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  left: 0;
+}
+
+.homeScreenFour__textContainers {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+  z-index: -1;
+  padding-left: -200px;
+}
+
+.homeScreenFour__textContainers > h1 {
+  padding-left: 55px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.homeScreenFour__product {
+  z-index: 1;
+  height: 100%;
+  min-width: 600px;
+  width: 85%;
+  margin-top: -100px;
+  margin-bottom: -90px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/ScreenFour/Sc_Four_00000.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  object-fit: contain;
+}
+
+.homeScreenFour__productAnimation {
+  z-index: 1;
+  height: 100%;
+  min-width: 600px;
+  width: 85%;
+  margin-top: -100px;
+  margin-bottom: -90px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/ScreenFour/Sc_Four_00016.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  object-fit: contain;
+  animation: laptopDisplayOpen 2s ease-in;
+}
+.homeScreenFour__text {
+  padding-top: 20px;
+  width: 40%;
+  min-width: 600px;
+}
+.homeScreenFour__text > p {
+  width: 100%;
+  text-align: center;
+}
+@media all and (max-width: 1300px) {
+  .homeScreenFour__text {
+    padding-top: 20px;
+    width: 40%;
+    min-width: 500px;
+  }
+  .homeScreenFour__textContainers > h1 {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+  .homeScreenFour__textContainers {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .homeScreenFour__text {
+    padding-top: 20px;
+    width: 40%;
+    min-width: 400px;
+  }
+  .homeScreenFour__textContainers > h1 {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 24px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .homeScreenFour {
+    height: 800px;
+    padding-bottom: -300px;
+    margin-bottom: -300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .homeScreenFour__textOuterContainer {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .homeScreenFour__container {
+    width: 80%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .homeScreenFour__textContainers {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 180px;
+    z-index: -1;
+  }
+  .homeScreenFour__textContainers > h1 {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+
+  .homeScreenFour__text {
+    max-width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    min-width: 300px;
+  }
+
+  .homeScreenFour__text > p {
+    width: 50%;
+    text-align: center;
+    min-width: 300px;
+    font-size: 11px;
+    max-width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* only for this  screen */
+  .homeScreenFour__product {
+    z-index: 1;
+    height: 800px;
+    margin-bottom: -300px;
+    padding-bottom: -300px;
+    min-width: 300px;
+    width: 300px;
+    margin-top: -100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/ScreenFour/Sc_Four_00000.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    object-fit: contain;
+  }
+
+  .homeScreenFour__productAnimation {
+    z-index: 1;
+    height: 800px;
+    min-width: 300px;
+    width: 300px;
+    margin-top: -100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/ScreenFour/Sc_Four_00016.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    object-fit: contain;
+    animation: laptopDisplayOpen 2s ease-in;
+    margin-bottom: -300px;
+    padding-bottom: -300px;
+  }
+  .homeScreenFour__textOuterContainer {
+    min-width: 300px;
+  }
+  .homeScreenFour__textContainers {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 60%;
+    left: 3%;
+    z-index: -1;
+    min-width: 300px;
+  }
+  .homeScreenFour__text > p {
+    min-width: 300px;
+    max-width: 300px;
+  }
+}
+
+@keyframes laptopDisplayOpen {
+  0% {
+    background-image: url(images/ScreenFour/Sc_Four_00000.png);
+  }
+  5% {
+    background-image: url(images/ScreenFour/Sc_Four_00001.png);
+  }
+  10% {
+    background-image: url(images/ScreenFour/Sc_Four_00002.png);
+  }
+  15% {
+    background-image: url(images/ScreenFour/Sc_Four_00003.png);
+  }
+  20% {
+    background-image: url(images/ScreenFour/Sc_Four_00004.png);
+  }
+  25% {
+    background-image: url(images/ScreenFour/Sc_Four_00005.png);
+  }
+  30% {
+    background-image: url(images/ScreenFour/Sc_Four_00006.png);
+  }
+  35% {
+    background-image: url(images/ScreenFour/Sc_Four_00007.png);
+  }
+  40% {
+    background-image: url(images/ScreenFour/Sc_Four_00008.png);
+  }
+  45% {
+    background-image: url(images/ScreenFour/Sc_Four_00009.png);
+  }
+  50% {
+    background-image: url(images/ScreenFour/Sc_Four_00010.png);
+  }
+  55% {
+    background-image: url(images/ScreenFour/Sc_Four_00011.png);
+  }
+  60% {
+    background-image: url(images/ScreenFour/Sc_Four_00012.png);
+  }
+  65% {
+    background-image: url(images/ScreenFour/Sc_Four_00013.png);
+  }
+  70% {
+    background-image: url(images/ScreenFour/Sc_Four_00014.png);
+  }
+  75% {
+    background-image: url(images/ScreenFour/Sc_Four_00015.png);
+  }
+  80% {
+    background-image: url(images/ScreenFour/Sc_Four_00016.png);
+  }
+}
